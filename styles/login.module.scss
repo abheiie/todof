@@ -1,0 +1,61 @@
+.parentContainer{
+    // width: 100vw;
+    height: 100vh;
+    display: flex;
+    .leftPanel {
+        width: 385px;
+        background-color: rgb(255, 255, 255);
+        .leftPanelDiv{
+            height: 70%;
+            width: 80%;
+            margin: 40% 14%;
+            .logo{
+                font-weight: 700;
+                letter-spacing: 1px;
+                font-size: 56px;
+                margin: 0;
+                &::first-letter{
+                    font-style: italic;
+                    color: rgb(255, 66, 113);
+                }
+            }
+            .loginForm{
+                display: flex;
+                flex-direction: column;
+                .MuiFormControl-root{
+                    margin: 5%;
+                }
+                .text-input{
+                    color: "#4562b5",
+                }
+                .react-tel-input{
+                    margin: 5%;
+                    .form-control{
+                        width: 260px;
+                    }
+                }
+                .MuiAlert-root{
+                    margin: 5%;
+                }
+            }
+        }
+    }
+    .rightPanel {
+        width: calc(100vw - 384px);
+        background-color: rgb(190, 172, 172);
+        background: url("/e-comm_4x.jpg");
+        background-size: cover;
+
+    }
+    
+}
+
+
+$tablet-width: 768px;
+@media only screen and (max-device-width: 680px){
+        .parent-container .leftPanel .leftPanelDiv {
+            margin:10%
+        }
+    }
+  
+

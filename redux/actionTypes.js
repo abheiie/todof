@@ -1,0 +1,25 @@
+// AUTH ACTION TYPES
+export const SET_AUTH_USER = 'SET_AUTH_USER';
+export const SET_TOKEN = 'SET_TOKEN';
+export const SET_SOCKET = 'SET_SOCKET';
+export const CLEAR_AUTH_USER = 'CLEAR_AUTH_USER';
+
+//PROFILES ACTION TYPES
+export const SET_TODOS = 'SET_TODOS';
+export const CLEAR_TODOS = 'CLEAR_TODOS';
+export const LOADING_TODOS = 'LOADING_TODOS';
+export const UPDATE_TODO = 'UPDATE_TODO';
+export const DELETE_TODO = 'DELETE_TODO';
+export const UPDATE_TODO_START = 'UPDATE_TODO_START';
+export const CREATE_TODO = 'CREATE_TODO';
+
+//USER ACTION TYPES
+export const SET_USER = 'SET_USER';
+export const CLEAR_USER = 'CLEAR_USER';
+export const LOADING_USER = 'LOADING_USER';
+
+//ERROT ACTION TYPES
+export const SET_ERROR = 'SET_ERROR';
+
+
+
